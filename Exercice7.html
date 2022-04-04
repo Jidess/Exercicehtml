@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Exercice7.css">
     <title>Formulaire</title>
 </head>
 
 <body>
     <form>
-        <fieldset>
+        <fieldset class="bleu">
             <legend>Votre identité</legend>
             <ol>
                 <li><label for="Nom">Nom :</label>
@@ -18,11 +19,13 @@
                 <li><label for="Prénom">Prénom</label>
                     <input type="text" id="Prénom" value="Prénom"></li>
                 <li><label for="Adresse mail">Adresse mail</label>
-                    <input type="email" id="Adresse mail" value="Adresse mail" </li> </ol> </fieldset> <fieldset>
+                    <input type="email" id="Adresse mail" value="Adresse mail"> </li> </ol> </fieldset> 
+
+                    <fieldset class="violet">
                     <legend>Adresse de livraison</legend>
                     <ol>
                         <li><label for="Adresse">Adresse :</label>
-                            <input type="text" id="Adresse"> </li>
+                            <textarea id="Adresse" rows="5"></textarea> </li>
                         <li><label for="Code postal">Code postal</label>
                             <input type="text" id="Code postal" value="Code postal"></li>
                         <li><label for="ville">ville</label>
@@ -30,7 +33,8 @@
                     </ol>
 
         </fieldset>
-        <fieldset>
+
+        <fieldset class="rose">
             <legend>information de réglement</legend>
             <ol>
                 <li>type de carte bancaire :
