@@ -1,9 +1,49 @@
 .box {
     display: flex;
+    flex-direction: row;
 }
 
 
+.rouge {
+    background-color: red;
+    flex: 0 1 30%
+    ;
+}
+.orangevnr {
+    background-color: orangered;
+    flex: 1 1 auto;
+}
+.orange {
+    background-color: darkorange;
+    flex: 1 1 auto;
+}
+
+.bleufade {
+    background-color: aquamarine;
+    flex: 1 1 auto;
+}
 
 .vert {
     background-color: green;
+    flex-grow: 8
+    ;
+}
+.vertfade{
+    background-color: darkcyan;
+    flex: 1 1 auto;
+}
+
+.bleu {
+    background-color: darkcyan;
+    flex-grow: 2
+    ;
+}
+.jaune {
+    background-color: yellow;
+    flex: 1 1 auto;
+}
+
+.sombre {
+    background-color: midnightblue;
+    flex-grow: 10;
 }
