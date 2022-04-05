@@ -6,11 +6,12 @@ body {
     font-family: 'Coming Soon', cursive;
 }
 
-ol::first-line {
+ol > li {
     color: blue;
 }
 
-#blue {
+
+/* #blue {
     color: blue;
 }
 
@@ -24,4 +25,24 @@ ol::first-line {
 
 #grey {
     color: grey;
+} */
+
+li ~ li ~ li ~ li {
+    color: grey;
+}
+
+ol > li ~ li {
+    color: black;
+}
+
+ul + li {
+    color: red;
+}
+
+ol > li:first-of-type > ul > li {
+    color: red;
+}
+
+ol > li:first-of-type > ul > li:last-of-type {
+    color: green;
 }
