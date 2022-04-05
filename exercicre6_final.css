@@ -1,0 +1,56 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+}
+.boxTwo {
+    display: flex;
+    flex-direction: row;
+    width: 70%; 
+    flex-wrap: wrap ;
+}
+
+.rouge {
+    background-color: red;
+    flex: 0 1 30%
+    ;
+}
+.orangevnr {
+    background-color: orangered;
+    flex: 50%;
+}
+.orange {
+    background-color: darkorange;
+    flex: 35%;
+}
+
+.bleufade {
+    background-color: aquamarine;
+    flex: 35%;
+}
+
+.vert {
+    background-color: green;
+    flex-grow: 8
+    ;
+}
+.vertfade{
+    background-color: darkcyan;
+    flex: 50%;
+}
+
+.bleu {
+    background-color: darkcyan;
+    flex-grow: 2
+    ;
+}
+.jaune {
+    background-color: yellow;
+    flex: 30%;
+}
+
+.sombre {
+    background-color: midnightblue;
+    flex-grow: 10;
+    height: 60px;
+}
