@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    height: 400px;
+    width: 250px;
 }
 
 /* @media screen and (max-width: 1000px) {
@@ -13,13 +19,13 @@
 
 .card {
     /* ombre */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
 /* augmente l'ombre quand on passe la souris */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* conteneur de la description */
@@ -33,6 +39,17 @@
     background: rgb(34,0,233);
 background: linear-gradient(180deg, rgba(34,0,233,1) 0%, rgba(154,154,149,1) 31%, rgba(255,255,255,1) 100%);
 }
+.cardPlat {
+    /* ombre */
+    box-shadow: 0 8px 16px 0 rgba(17, 0, 255, 0.637);
+    transition: 0.3s;
+}
+
+/* augmente l'ombre quand on passe la souris */
+.cardPlat:hover {
+    box-shadow: 0 16px 32px 0 rgba(17, 0, 255, 0.637);
+}
+
 
 /* merci a ccs gradient pour faire tout ça oklm */
 
@@ -41,6 +58,18 @@ background: linear-gradient(180deg, rgba(34,0,233,1) 0%, rgba(154,154,149,1) 31%
     background: rgb(233,222,0);
 background: linear-gradient(180deg, rgba(233,222,0,1) 0%, rgba(255,226,0,1) 22%, rgba(255,255,255,1) 100%);
 }
+
+.cardGold {
+    /* ombre */
+    box-shadow: 0 8px 16px 0 rgba(255, 230, 0, 0.637);
+    transition: 0.3s;
+}
+
+/* augmente l'ombre quand on passe la souris */
+.cardGold:hover {
+    box-shadow: 0 16px 32px 0 rgba(255, 230, 0, 0.637);
+}
+
 
 p{
     text-align: center;
