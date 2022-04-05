@@ -5,10 +5,7 @@
     justify-content: space-between;
 }
 
-img {
-    height: 400px;
-    width: 250px;
-}
+
 
 /* @media screen and (max-width: 1000px) {
     .deck {
@@ -36,9 +33,10 @@ img {
 /* des cartes gold c cool mais le platine c'est mieux  */
 .descPlat {
     padding: 2px 16px;
-    background: rgb(34,0,233);
-background: linear-gradient(180deg, rgba(34,0,233,1) 0%, rgba(154,154,149,1) 31%, rgba(255,255,255,1) 100%);
+    background: rgb(34, 0, 233);
+    background: linear-gradient(180deg, rgba(34, 0, 233, 1) 0%, rgba(154, 154, 149, 1) 31%, rgba(255, 255, 255, 1) 100%);
 }
+
 .cardPlat {
     /* ombre */
     box-shadow: 0 8px 16px 0 rgba(17, 0, 255, 0.637);
@@ -55,8 +53,8 @@ background: linear-gradient(180deg, rgba(34,0,233,1) 0%, rgba(154,154,149,1) 31%
 
 .descGold {
     padding: 2px 16px;
-    background: rgb(233,222,0);
-background: linear-gradient(180deg, rgba(233,222,0,1) 0%, rgba(255,226,0,1) 22%, rgba(255,255,255,1) 100%);
+    background: rgb(233, 222, 0);
+    background: linear-gradient(180deg, rgba(233, 222, 0, 1) 0%, rgba(255, 226, 0, 1) 22%, rgba(255, 255, 255, 1) 100%);
 }
 
 .cardGold {
@@ -71,11 +69,15 @@ background: linear-gradient(180deg, rgba(233,222,0,1) 0%, rgba(255,226,0,1) 22%,
 }
 
 
-p{
+p {
     text-align: center;
 }
 
-h4{
+h4 {
     text-align: center;
 }
 
+img {
+    height: 400px;
+    width: 250px;
+}
