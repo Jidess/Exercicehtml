@@ -1,0 +1,12 @@
+.deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+    .deck {
+        flex-direction: column;
+    }
+    
+}
