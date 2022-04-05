@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 40px;
+    gap: 60px;
 }
 
 
@@ -16,25 +18,27 @@
 
 .card {
     /* ombre */
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 hsla(0, 0%, 0%, 0.719);
     transition: 0.3s;
 }
 
 /* augmente l'ombre quand on passe la souris */
 .card:hover {
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 32px 0 hsla(0, 0%, 100%, 0.719);
+    transform: translateY(-1rem);
 }
 
 /* conteneur de la description */
 .desc {
     padding: 2px 16px;
+    background-color: #131212;
 }
 
 /* des cartes gold c cool mais le platine c'est mieux  */
 .descPlat {
     padding: 2px 16px;
-    background: rgb(34, 0, 233);
-    background: linear-gradient(180deg, rgba(34, 0, 233, 1) 0%, rgba(154, 154, 149, 1) 31%, rgba(255, 255, 255, 1) 100%);
+    background: rgb(54, 50, 125);
+    background: linear-gradient(142deg, rgba(54, 50, 125, 1) 0%, rgba(183, 183, 227, 1) 100%, rgba(0, 195, 235, 0) 100%);
 }
 
 .cardPlat {
@@ -46,6 +50,7 @@
 /* augmente l'ombre quand on passe la souris */
 .cardPlat:hover {
     box-shadow: 0 16px 32px 0 rgba(17, 0, 255, 0.637);
+    transform: translateY(-1rem);
 }
 
 
@@ -66,6 +71,7 @@
 /* augmente l'ombre quand on passe la souris */
 .cardGold:hover {
     box-shadow: 0 16px 32px 0 rgba(255, 230, 0, 0.637);
+    transform: translateY(-1rem);
 }
 
 
@@ -80,4 +86,22 @@ h4 {
 img {
     height: 400px;
     width: 250px;
+}
+
+body {
+    background-color: blue;
+}
+
+.desc p {
+    color: aliceblue;
+}
+
+.desc h4 {
+    color: aliceblue;
+}
+
+.bg {
+    background-color: #3a3a3a;
+    display: flex;
+    flex-wrap: wrap;
 }
