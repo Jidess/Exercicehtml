@@ -1,0 +1,27 @@
+p span span {
+    color: pink;
+}
+
+body {
+    font-family: 'Coming Soon', cursive;
+}
+
+ol::first-line {
+    color: blue;
+}
+
+#blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+#grey {
+    color: grey;
+}
