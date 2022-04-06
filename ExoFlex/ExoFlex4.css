@@ -1,0 +1,58 @@
+.box 
+{
+    display: flex;
+    height: 50vh;
+flex: 1 1;
+}
+
+.green 
+{
+    background-color: green;
+    flex: 5 5;
+}
+
+.red 
+{
+    background-color: red;
+    flex: 4 4;
+}
+
+.blue 
+{
+    background-color: blue;
+    flex: 1 1;
+}
+
+.box2 
+{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    flex: 1 1;
+
+}
+.purple{
+    background-color: purple;
+    flex: 2 2;
+}
+.yellow{
+    background-color: yellow;
+    flex: 1 1;
+}
+.white{
+    background-color: antiquewhite;
+    flex: 1 1;
+}
+body{
+    background-color: black;
+}
+
+.bigBox{
+    display: flex;
+    height: 50vh;
+    flex-wrap: wrap;
+}
+.grey{
+    background-color: gray;
+    flex: 1 1;
+}
