@@ -1,0 +1,30 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.white{
+    background-color: white;
+    height: 6VH;
+}
+.green{
+    background-color: green;
+    height: 16VH;
+}
+.red{
+    background-color: red;
+    height: 12vh;
+}
+.blue{
+    background-color: blue;
+    height: 60vh;
+}
+.black{
+    background-color: black;
+    height: 6vh;
+    width: 100vw;
+}
+body {
+    background-color: palevioletred;
+    margin: 0px;
+}

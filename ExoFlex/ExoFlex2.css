@@ -1,0 +1,23 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.green {
+    background-color: green;
+    flex: 0 1 50%;
+    height: 20px;
+}
+
+.red {
+    background-color: red;
+    flex: 0 1 40%;
+    height: 20px;
+}
+
+.blue {
+    background-color: blue;
+    flex: 0 1 10%;
+    height: 20px;
+}
+
