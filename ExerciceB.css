@@ -11,21 +11,6 @@ ol > li {
 }
 
 
-/* #blue {
-    color: blue;
-}
-
-#red {
-    color: red;
-}
-
-#green {
-    color: green;
-}
-
-#grey {
-    color: grey;
-} */
 
 li ~ li ~ li ~ li {
     color: grey;
